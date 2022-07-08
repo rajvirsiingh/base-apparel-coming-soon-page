@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.logo {
+  position: relative;
+  left: 200px;
+  top: 70px;
+}
+.hero-img {
+  float: right;
+}
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  background-image: linear-gradient(
+    135deg,
+    hsl(0, 0%, 100%),
+    hsl(0, 100%, 98%)
+  );
+}
+.text {
+  padding: 70px 0 0 200px;
+}
+h1 {
+  font-size: 5rem;
+  color: hsl(0, 6%, 24%);
+}
+span {
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+}
+p {
+  width: 30%;
+  color: hsl(0, 93%, 68%);
+  line-height: 25px;
+}
+input {
+  border-color: hsl(0, 36%, 70%);
+  height: 40px;
+  width: 270px;
+  border-radius: 30px;
+}
+::placeholder {
+  color: hsl(0, 36%, 70%);
+  padding-left: 20px;
+}
+.btn {
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  border-style: none;
+  height: 50px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 30px;
+  position: relative;
+  right: 60px;
+  bottom: -8px;
+  margin-bottom: -60px;
+}
+.btn:hover {
+  box-shadow: 20px 20px 50px grey;
+  width: 120px;
+}
+h2 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -3px;
+}
+.messages p {
+  margin: 0;
+}
+i {
+  color: red;
+  position: relative;
+  right: 190px;
+  top: 2px;
+  opacity: 0;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    margin: 15px;
+    position: relative;
+    top: 0px;
+    left: -100px;
+  }
+  .hero-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 20%;
+    margin-bottom: 50px;
+  }
+  body {
+    text-align: center;
+  }
+  .text {
+    padding: 0;
+  }
+  .text p {
+    width: 70%;
+    margin: 30px auto;
+  }
+  .btn {
+    position: relative;
+    right: 50px;
+  }
+}
